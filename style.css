@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: #f4f6f6;
+}
+
+.header {
+    height: 70px;
+    background-color: #0073a1;
+}
+
+.container{
+    padding: 0 24px;
+}
+
+.container .title {
+    padding-left: 34px;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    color: #555555;
+    border-bottom: 3px solid #003471;
+    margin-bottom: 84px;
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: -3px 4px 5px 1px rgba(229,231,231,0.8);
+
+}
+
+.container .card .card-title-wrap .card-title{
+    padding-left: 36px;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    background-color: #fafafa;
+    color: #003471;
+    /*box-shadow: -3px 7px 5px 1px rgba(229,231,231,0.8);*/
+}
+
+.container .card .card-body .suptitle {
+    padding-top: 30px;
+    padding-left: 36px;
+    padding-bottom: 34px;
+    background-color: #ffffff;
+    color: #0073a1;
+}
+
+.container .card .card-body .card-text {
+    padding-left: 36px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    color: #777;
+}
+
+.container .card .card-title-wrap .card-title-color{
+    padding-left: 36px;
+    padding-top: 22px;
+    padding-bottom: 26px;
+    background-color: #fafafa;
+    color: #000;
+}
+
+.container .btn{
+    margin-top: 76px;
+    padding: 14px 70px;
+    background-color: #0073a1;
+    color: #fafafa;
+    outline: none;
+    border-radius: 25px;
+}
